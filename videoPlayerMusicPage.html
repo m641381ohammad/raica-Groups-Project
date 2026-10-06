@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <title>صفحه ویدیو موزیک</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.rtl.css" />
+    <link rel="stylesheet" type="text/css" href="css/hover-min.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/plyr.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <!--Start Header-->
+  <header class="container">
+    <div class="header-logo  ">
+
+      <img src="img/logo.png" alt="logo" />
+
+    </div>
+    <div class="header-menu small-size-menu d-lg-none">
+      <nav class="navbar navbar-expand-lg w-100 navbar-Dark ">
+        <div class="container-fluid">
+
+
+          <button class="navbar-toggler MenuIcon text-white" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white"></span>
+            <i class="fas fa-bars fs-1"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto w-100 me-auto mb-2 mb-lg-0 shadow">
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover active" aria-current="page" href="index.html">صفحه
+                  اصلی</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="archive.html">اهنگ سازی</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="#">استدیو</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="musicPage.html">موزیک</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="#">تیزر</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="videoPlayerMusicPage.html">ویدیو</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="contact.htm">تماس با ما</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="about.html">درباره ما</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="menu-back-small-size-menu"><img src="img/equalizer.png" alt="" /></div>
+    </div>
+
+    <div class=" header-menu big-size-menu">
+      <nav class="navbar navbar-expand-lg w-100 navbar-Dark ">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse ">
+            <ul class="navbar-nav mx-auto w-100 me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover active" aria-current="page" href="#">صفحه
+                  اصلی</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="archive.html">اهنگ سازی</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="#">استدیو</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="musicPage.html">موزیک</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="#">تیزر</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="videoPlayerMusicPage.html">ویدیو</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="contact.htm">تماس با ما</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-right NavBArHover" href="about.html">درباره ما</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="menu-back-big-size-menu"><img src="img/equalizer.png" alt="" /></div>
+
+    </div>
+
+  </header>
+
+  <!--End Header-->
+
+
+    <!--Start Video Music-->
+
+    <div class="container music mb-5">
+
+        <div class="row">
+            <h6 class="fs-5 fw-bolder text-white mb-4">آهنگ خاطرات</h6>
+        </div>
+
+        <div class="row">
+
+            <video id="playerr" controls crossorigin playsinline poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg">
+                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" size="576">
+                   <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4" type="video/mp4" size="720">
+                   <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4" type="video/mp4" size="1080">
+       
+
+                   <track kind="captions" label="English" srclang="en" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
+                           default>
+                   <track kind="captions" label="Français" srclang="fr" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
+
+                   <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" download>Download</a>
+           </video>
+
+        </div>
+
+        <div class="row text-white d-flex flex-column justify-content-start mt-3">
+
+            <div class="col infos-music d-flex flex-column mb-5">
+                <p class="memories-text fw-bold fs-4 mt-4 mt-md-0">خاطرات</p>
+                <span class="info-music-item">خواننده: <span class="info-music-name">آرسام</span></span>
+                <span class="info-music-item">موزیک: <span class="info-music-name">استودیو رایکا</span></span>
+                <span class="info-music-item">تنظیم کننده: <span class="info-music-name">عارف امرجی</span></span>
+                <span class="info-music-item">شعر و ملودی: <span class="info-music-name">مبهم</span></span>
+                <span class="info-music-item">سبک: <span class="info-music-name">پاپ</span></span>
+            </div>
+
+                <div class="col infos-for-download-music d-flex align-items-start mt-3">
+                    <div class="like me-5">
+                        <img src="img/like.png" class="img-music lmg-like-music-page" alt="">
+                    </div>
+        
+                    <div class="review text-white me-5">
+                        <img src="img/view.png" class="img-music lmg-view-music-page" alt="">
+                        <span>326</span>
+                    </div>
+        
+                    <div class="downloads text-white">
+                        <img src="img/download.png" class="img-music lmg-download-music-page" alt="">
+                        <span>دانلود ویدیو</span>
+                    </div>
+                </div>
+
+
+        </div>
+
+        <div class="row text-white  mt-5">
+            <div class="Song-text-title d-flex justify-content-center">
+                <p>متن آهنگ</p>
+            </div>
+            <div class="lyrics">
+                <span class="lyrics-text">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                    چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+                    نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته
+                    حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                    رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد.لورم ایپسوم متن ساختگی با
+                    تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
+                    مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف
+                    بهبود ابزارهای کاربردی می باشد
+                </span>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!--End Video Music-->
+
+    <!--Start SocialMedia-->
+
+    <footer class="text-center mx-auto text-lg-start bg-body-tertiary text-muted">
+
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container px-auto  text-md-end mt-5">
+                <!-- Grid row -->
+                <div
+                    class="row mt-3 d-flex flex-row text-md-start justify-content-md-between align-content-start align-items-start">
+                    <!-- Grid column -->
+                    <div class="footer-access col-md-3 col-lg-4 col-xl-3  mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold  mb-4">
+                            <i class="fas fa-gem me-3"></i>درباره ما
+                        </h6>
+                        <p>
+                            <a href="contact.htm" class="text-reset">تماس با ما</a>
+                        </p>
+                        <p>
+                            <a href="about.html" class="text-reset">درباره ما</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class=" footer-access col-md-3 col-lg-2 col-xl-2 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-3">خدمات ما</h6>
+                        <p>
+                            <a href="#!" class="text-reset">آهنگسازی</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">میکس و مستر</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">آهنگسازی</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">ضبط وکال</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">تیزر تبلیغاتی</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class=" footer-access col-md-3 col-lg-2 col-xl-2 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">اثار ما</h6>
+                        <p>
+                            <a href="#!" class="text-reset">موزیک</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">ویدئو</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">دوبله</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">تیزر</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div
+                        class="footer-access d-flex flex-column align-items-md-start align-items-center justify-content-md-center justify-content-end align-content-start col-md-3 col-lg-3 col-xl-3 mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">ارتباط با ما</h6>
+
+                        <p class="text-start">
+                            <i class="fas fa-home me-3"></i> آدرس: آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی
+                        </p>
+
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            ایمیل: info@example.com
+                        </p>
+
+                        <p><i class="fas fa-phone me-3"></i> موبایل: 09123456789</p>
+                        <p><i class="fas fa-print me-3"></i> تلفن: 0123456789</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+    </footer>
+    <!-- Footer -->
+    </div>
+    <!--End Footer -->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/plyr.polyfilled.js"></script>
+    <script src="js/myscripts.js"></script>
+</body>
+
+</html>
